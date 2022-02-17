@@ -8,4 +8,8 @@ In your terminal after you clone your project down, remember to run either `yarn
 
 ## Start the Project
 
-In your terminal after you are done installing the dependencies run `npm install`
+In your terminal after you are done installing the dependencies run `npm start`
+
+## Build the Project
+
+In your terminal run `npm run deploy`
