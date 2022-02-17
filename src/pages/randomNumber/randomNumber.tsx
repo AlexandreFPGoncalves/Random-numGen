@@ -20,6 +20,7 @@ export const RandomNumberScreen: React.FC = () => {
 							{/* Title & Subtitle */}
 							<Titles
 								title={resources.title}
+								titleStyle={{ textAlign: 'center' }}
 								subtitle={generatedValue ? resources.subtitle + generatedValue : resources.subtitle}
 								horizontalAlign="center"
 								subtitleStyle={{ color: generatedValue ? 'var(--discover-blue-dark)' : 'var(--white)' }}
