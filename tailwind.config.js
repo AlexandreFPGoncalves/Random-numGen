@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ['./src/**/*.tsx', '.index.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Figtree: 'Figtree, sans-serif',
+      },
+      colors: {
+        bg: '#09090A',
+      },
+    },
   },
   plugins: [],
-}
-
+};
