@@ -7,16 +7,16 @@
 
 <h3 align="center">AlexandreFPGoncalves</h3>
   <p align="center">
-    <img src="https://i.imgur.com/MgjPDOB.png" alt="Project Preview" width="50%">
+    <img src="https://i.imgur.com/iyNuA8k.png" alt="Project Preview" width="50%">
     <br />
-    <a href="https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/wiki"><strong>Explore the Wiki »</strong></a>
+    <a href="https://github.com/AlexandreFPGoncalves/Random-numGen/wiki"><strong>Explore the Wiki »</strong></a>
     <br />
     <br />
-    <a href="https://alexandrefpgoncalves-zustand-todo-list.vercel.app/">View Demo</a>
+    <a href="https://random-num-gen-orcin.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/issues">Report Bug</a>
+    <a href="https://github.com/AlexandreFPGoncalves/Random-numGen/issues">Report Bug</a>
     ·
-    <a href="https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/issues">Request Feature</a>
+    <a href="https://github.com/AlexandreFPGoncalves/Random-numGen/issues">Request Feature</a>
   </p>
 
 </div>
@@ -50,7 +50,9 @@
 
 ## About The Project
 
-Personal To-Do List Project, build using [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) and it's state management and the [Container/View Pattern](https://dev.to/ornio/container-view-pattern-in-react-inc-hooks-5404), the idea of this project is to gather new skills and knowledge while creating something functional.
+One of my first [ReactJs](https://react.dev) and [Typescript](https://www.typescriptlang.org) Web applications, the famous Random Number Generator, now refactored using [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) as it's state management and the [Container/View Pattern](https://dev.to/ornio/container-view-pattern-in-react-inc-hooks-5404), styled with [Tailwindcss](https://random-num-gen-orcin.vercel.app).
+
+The idea of this project was to gather new skills and knowledge while creating something functional.
 
 ### Built With
 
@@ -68,7 +70,7 @@ Have the <b>latest LTS</b> npm version installed on your machine from this [webs
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/AlexandreFPGoncalves/Zustand-Todo-List.git
+   git clone https://github.com/AlexandreFPGoncalves/Random-numGen.git
    ```
 2. Install NPM packages
    ```sh
@@ -83,38 +85,28 @@ Have the <b>latest LTS</b> npm version installed on your machine from this [webs
 
 ### Roadmap
 
-- [x] Initial Zustand and Architecture Story
-- [x] Mocked Todo List
-- [x] State Management - Zustand
-  - [x] Store Structure
-  - [x] New Todo Action
-  - [x] Edit Todo Action
-  - [x] Delete Todo Action
-  - [x] Complete All Todos Action
-  - [x] Clean Todos Action
-- [x] Development on a todo list using my state management
-- [x] Vercel Deployment
+- [x] Refactored old code;
+- [x] Built new Zustand Store
+  - [x] Generated Numbers List
+- [x] Developed and improved old code;
 - [x] Application Design
-  - [x] Removal of unused CSS
-- [x] emptyShard Component +
+- [x] Vercel Deployment
 
-See the [open issues](https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/AlexandreFPGoncalves/Random-numGen/issues) for a full list of proposed features (and known issues).
 
 <!-- PACKAGES USED -->
 
 ## Packages used
 
-1. <b>[Clsx](https://www.npmjs.com/package/clsx)</b> | Creates classes variations, helps on creating conditional style classes inside a component. <br>
-2. <b>[@radix-ui/react-icons](https://www.radix-ui.com)</b> | Various primitive icons from radix are utilized in this project. <br>
-3. <b>[uuidv4](https://www.npmjs.com/package/uuidv4)</b> | Easily create UUIDs. <br>
-4. <b>[Zustand](https://zustand-demo.pmnd.rs)</b> | A small, fast, and scalable bearbones state management solution. Zustand has a comfy API based on hooks. It isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like. <br>
-5. <b>[Tailwindcss](https://tailwindcss.com)</b> | A utility-first CSS framework packed with styled classes that can be composed to build any design, directly in your markup.
+1. <b>[Nanoid](https://www.npmjs.com/package/nanoid)</b> | Easily create nanoIDs. <br>
+2. <b>[Zustand](https://zustand-demo.pmnd.rs)</b> | A small, fast, and scalable bearbones state management solution. Zustand has a comfy API based on hooks. It isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like. <br>
+3. <b>[Tailwindcss](https://tailwindcss.com)</b> | A utility-first CSS framework packed with styled classes that can be composed to build any design, directly in your markup.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 
@@ -122,24 +114,18 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 **Alexandre Gonçalves** | [Linkedin](https://www.linkedin.com/in/alexandre-gonçalves-3a4a53227/) | alexandrefpgoncalves@gmail.com
 
-**Project Link:** [Zustand-Todo-List](https://github.com/AlexandreFPGoncalves/Zustand-Todo-List)
+**Project Link:** [Random-numGen](https://github.com/AlexandreFPGoncalves/Random-numGen)
 
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-> Thanks to [Diogo Nogueira](https://github.com/isneru) and [Humberto Vieira](https://github.com/hjsvieira98) for any help and knowledge shared.
-
-[contributors-shield]: https://img.shields.io/github/contributors/AlexandreFPGoncalves/Zustand-Todo-List.svg?style=for-the-badge
-[contributors-url]: https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AlexandreFPGoncalves/Zustand-Todo-List.svg?style=for-the-badge
-[forks-url]: https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/network/members
-[stars-shield]: https://img.shields.io/github/stars/AlexandreFPGoncalves/Zustand-Todo-List?style=for-the-badge
-[stars-url]: https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AlexandreFPGoncalves/Zustand-Todo-List.svg?style=for-the-badge
-[issues-url]: https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/issues
-[license-shield]: https://img.shields.io/github/license/AlexandreFPGoncalves/Zustand-Todo-List.svg?style=for-the-badge
-[license-url]: https://github.com/AlexandreFPGoncalves/Zustand-Todo-List/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/AlexandreFPGoncalves/Random-numGen.svg?style=for-the-badge
+[contributors-url]: https://github.com/AlexandreFPGoncalves/Random-numGen/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AlexandreFPGoncalves/Random-numGen.svg?style=for-the-badge
+[forks-url]: https://github.com/AlexandreFPGoncalves/Random-numGen/network/members
+[stars-shield]: https://img.shields.io/github/stars/AlexandreFPGoncalves/Random-numGen?style=for-the-badge
+[stars-url]: https://github.com/AlexandreFPGoncalves/Random-numGen/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AlexandreFPGoncalves/Random-numGen.svg?style=for-the-badge
+[issues-url]: https://github.com/AlexandreFPGoncalves/Random-numGen/issues
+[license-shield]: https://img.shields.io/github/license/AlexandreFPGoncalves/Random-numGen.svg?style=for-the-badge
+[license-url]: https://github.com/AlexandreFPGoncalves/Random-numGen/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alexandre-gonçalves-3a4a53227/
 
@@ -157,5 +143,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [npm-url]: https://www.npmjs.com
 [git-shield]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
 [git-url]: https://git-scm.com
-
-<!-- [product-screenshot]: images/screenshot.png -->
