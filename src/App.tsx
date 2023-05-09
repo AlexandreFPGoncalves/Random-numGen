@@ -2,7 +2,7 @@ import { RandomNumGenCore } from './screens';
 
 export const App = () => {
   return (
-    <div className="flex flex-col w-screen h-screen items-center">
+    <div className="App flex h-screen w-screen justify-center">
       <RandomNumGenCore />
     </div>
   );
