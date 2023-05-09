@@ -21,9 +21,6 @@ export const InputsShard = () => {
       progress: undefined,
       theme: 'dark',
     });
-
-    setMinValue(undefined);
-    setMaxValue(5);
   };
 
   const handleOrganizeValuesOnBlur = () => {
@@ -61,7 +58,7 @@ export const InputsShard = () => {
       </div>
 
       <button
-        className="hover:-translate-y-[1px] rounded-2xl  border-2 border-violet-600 bg-violet-600  py-1 text-lg font-semibold transition-all hover:border-violet-700 hover:bg-violet-700"
+        className="rounded border-2  border-violet-600 bg-violet-600 py-1  text-lg font-semibold transition-all hover:-translate-y-[1px] hover:border-violet-700 hover:bg-violet-700"
         onClick={() => minValue && maxValue && generateRandomNumberOnClick(minValue, maxValue)}
       >
         Generate
